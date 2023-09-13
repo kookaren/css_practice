@@ -9,19 +9,24 @@ body {
 }
 
 h1 {
+    font-size: 42px;
     text-align: center; 
     padding: 15px; 
+
     
 }
 
 h2 {
-    color: #C4C4C4 ;
+    color: #0D0D0D;
+    font-size: 30px;
 }
 
+.red p, .green p {
+    color: #FFFFFF;
+}
 p {
     font-size: 24px; 
-    padding-top: 10px; 
-    padding-left: 10px; 
+    padding: 10px 10px 0px 0px; 
     color:  #707070;
 }
 
@@ -58,14 +63,45 @@ div {
     background-color: #0000FF;
     text-align: left;
     margin-right: 50px;
-    border-right: 5px;
-    border-top: 2px;
-}
+    border-right: 5px solid #FFFFFF;
+    border-top: 2px solid #FFFFFF;
+  }
+.red, .red p {
+    color: #C4C4C4;
+  }
+
+.blue h2, .blue p {
+    color: #C4C4C4;
+  }
 
 .yellow {
     background-color: #FFFF00;
     text-align: right;
     margin-left: 50px;
-    border-bottom: 2px;
-    border-left: 5px;
+    border-bottom: 2px solid #FFFFFF;
+    border-left: 5px solid #FFFFFF;
+  }
+.yellow p {
+    color: #707070;
+  }
+
+.green {
+    background-color:   #00D800;
+    text-align: left;
+    margin-right: 50px;
+    border-right: 5px solid #FFFFFF;
+    border-top: 2px solid #FFFFFF;
+  }
+  
+
+footer {
+    background: linear-gradient(#000000, #0000ff 25%, #0066ff 70%, #000000);
+    border: 5px solid #FFFFFF;
+
+}
+
+footer > p {
+    font-size: 20px;
+    text-align: right;
+    padding: 15px 0px 15px 15px;
 }
